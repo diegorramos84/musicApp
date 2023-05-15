@@ -8,7 +8,6 @@ function Card(data, index) {
   const handleLike = (e) => {
     if (liked === false) {
       setLiked(prevState => prevState = true)
-      // fix
       e.target.innerText = "Unlike"
     } else {
       setLiked(prevState => prevState = false)
@@ -23,7 +22,7 @@ function Card(data, index) {
       </div>
       <div id="card-content">
         <h3>{ data.song.name }</h3>
-        <p>released data: {data.song.released_date}</p>
+        <p>Released: {data.song.released_date}</p>
       </div>
       <div id="card-likeButton">
         <button onClick={ handleLike }>Like</button>
