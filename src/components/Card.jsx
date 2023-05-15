@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
 
 
@@ -5,18 +6,17 @@ function Card(data, index) {
   const [liked, setLiked] = useState(false)
 
   const handleLike = (e) => {
-    console.log('I like it!')
     if (liked === false) {
-      setLiked(true)
+      setLiked(prevState => prevState = true)
       e.target.innerText = "Dislike"
     } else {
-      setLiked(true)
+      setLiked(prevState => prevState = false)
       e.target.innerText = "Like"
     }
   }
 
   return(
-    <div key={index} className='card'>
+    <div key={index} className={`card ${liked === true ? "like-border" : undefined }`}>
       <div id="card-cover">
         <img src={ data.song.cover_art_link }  alt="cover art" />
       </div>

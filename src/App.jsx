@@ -9,7 +9,6 @@ function App() {
       {/* navbar */}
       <Banner />
       <Headline />
-      {/* hero banner */}
       <div id='cards'>
         <Cards />
       </div>

@@ -10,8 +10,15 @@ body {
   width: 100%;
 }
 
+#headline-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 #headline {
   color: #fffffe;
+  max-width: 1350px;
 }
 
 #card-likeButton {
@@ -21,10 +28,14 @@ body {
 
 #card-likeButton button {
   background-color: #ff8906;
-  color: #fffffe
+  color: #fffffe;
+  padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
+  border-radius: 10rem;
 }
 
 #banner {
+  margin-top: 30px;
   background-image: url(bzrp.jpg);
   height: 300px;
   width: 100%;
@@ -42,10 +53,14 @@ body {
 .card {
   padding: 10px;
   align-content: center;
-  border: 1px solid #ff8906;
   margin: 10px;
+  border: 1px solid #fffffe;
 }
 
 #card-content {
   max-width: 225px;
+}
+
+.like-border {
+  border: 3px solid #ff8906;
 }
