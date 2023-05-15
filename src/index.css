@@ -64,3 +64,17 @@ body {
 .like-border {
   border: 3px solid #ff8906;
 }
+
+#form-name {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nameAlert {
+  background-color: #ff8906;
+  color:#fffffe;
+  text-align: center;
+}

@@ -2,6 +2,7 @@ import './App.css'
 import Cards from './components/Cards'
 import Headline from './components/Headline'
 import Banner from './components/Banner'
+import Form from './components/Form'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div id='cards'>
         <Cards />
       </div>
+      <Form />
     </div>
   )
 }
