@@ -8,7 +8,7 @@ function Card(data, index) {
   const handleLike = (e) => {
     if (liked === false) {
       setLiked(prevState => prevState = true)
-      e.target.innerText = "Dislike"
+      e.target.innerText = "Unlike"
     } else {
       setLiked(prevState => prevState = false)
       e.target.innerText = "Like"
