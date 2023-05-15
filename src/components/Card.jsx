@@ -8,6 +8,7 @@ function Card(data, index) {
   const handleLike = (e) => {
     if (liked === false) {
       setLiked(prevState => prevState = true)
+      // fix
       e.target.innerText = "Unlike"
     } else {
       setLiked(prevState => prevState = false)
