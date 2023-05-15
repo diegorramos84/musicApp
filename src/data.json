@@ -1,0 +1,29 @@
+{
+  "songs": [
+    {
+      "name": "Shakira: BZRP Music Sessions #53",
+      "released_date": "2023-01-12",
+      "cover_art_link": "../public/shakira.jpeg"
+    },
+    {
+      "name": "Quevedo: BZRP Music Sessions #52",
+      "released_date": "2022-07-06",
+      "cover_art_link": "../public/quevedo.jpeg"
+    },
+    {
+      "name": "NICKI NICOLE: BZRP Music Sessions #13",
+      "released_date": "2019-08-14",
+      "cover_art_link": "../public/nicki.jpeg"
+    },
+    {
+      "name": "NATHY PELUSO: BZRP Music Sessions #36",
+      "released_date": "2020-11-27",
+      "cover_art_link": "../public/nathy.jpeg"
+    },
+    {
+      "name": "Snow Tha Product: BZRP Music Sessions #39",
+      "released_date": "2021-04-28",
+      "cover_art_link": "../public/snow.jpeg"
+    }
+  ]
+}
