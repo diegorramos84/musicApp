@@ -26,7 +26,7 @@ function App() {
       let random = randomColor()
       let newColor = colors[random]
       setColor(newColor)
-    }, 5000)
+    }, 30000)
 
     return () => clearInterval(timer)
 
