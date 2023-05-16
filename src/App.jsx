@@ -1,8 +1,5 @@
 import './App.css'
-import Cards from './components/Cards'
-import Headline from './components/Headline'
-import Banner from './components/Banner'
-import Form from './components/Form'
+import { Cards, Headline, Banner, Form } from './components'
 
 function App() {
   return (
