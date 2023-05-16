@@ -2,8 +2,8 @@
 // eslint-disable-next-line no-unused-vars
 import { useState } from 'react'
 import React from 'react'
-import { songs } from '../data.json'
-import Card from "./Card";
+import { songs } from '../../data.json'
+import { Card } from '..'
 
 function Cards() {
   return(
