@@ -11,5 +11,8 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'react-refresh/only-export-components': 'warn',
+    'react/prop-types': 'off',
+    'no-unused-vars': ['error', { "varsIgnorePattern": "React" }],
+    'react/no-unescaped-entities': ["error", { "forbid": [">", "}"] }],
   },
 }
