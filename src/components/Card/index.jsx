@@ -17,7 +17,7 @@ function Card(data, index) {
   }
 
   return(
-      <div key={index} className={`card ${liked === true ? "like-border" : undefined }`}>
+      <div key={index} role="card" className={`card ${liked === true ? "like-border" : undefined }`}>
         <Link className="card-link" to={`/song/${data.song.name}`}>
           <div>
             <div id="card-cover">
