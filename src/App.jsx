@@ -3,10 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import { NavBar } from './layout'
 import * as Pages from './pages'
 
-
 import './App.css'
-
-
 
 function App() {
   return (
